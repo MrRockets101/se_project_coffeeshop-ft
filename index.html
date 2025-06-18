@@ -63,7 +63,6 @@
         <!-- Add the recipes section here -->
         <!-- 1  page backround-->
         <section class="recipes">
-          <img class="" src="background_recipes.svg" alt="Background image" />
           <!-- 2 page header-->
           <div class="recipes_content recipes_text-rules">
             <h2 class="recipes__title">Recipes</h2>
@@ -76,8 +75,8 @@
           <!-- 7 classless wrapper ( encomposes iframes and video-caption) start -->
           <div>
             <!-- 4 start ( encomposes iframes and video-caption)-->
-            <div class="recipes__iframe-caption_wrapper">
-              <!-- 5 start iframes-->
+            <div class="recipes__videos">
+              <!-- 5 iframes-->
               <div>
                 <iframe
                   class="recipes__iframe"
@@ -88,6 +87,16 @@
                   allowfullscreen
                 >
                 </iframe>
+                <!-- 6 start video-captions -->
+                <div class="recipes__video-caption_wrapper">
+                  <p class="recipes__video-caption">
+                    The Ultimate AeroPress Technique (Episode #3)
+                  </p>
+                  <p class="recipes__video-caption">5:12</p>
+                </div>
+              </div>
+              <div>
+                <!-- 5 iframes-->
                 <iframe
                   class="recipes__iframe"
                   src="https://www.youtube.com/embed/st571DYYTR8?si=7_iTHqklpPf-Ng-9"
@@ -97,20 +106,14 @@
                   allowfullscreen
                 >
                 </iframe>
-              </div>
-              <!-- 5 end -->
-              <!-- 6 start video-captions -->
-              <div>
-                <div class="recipes__video-caption">
-                  <p>The Ultimate AeroPress Technique (Episode #3)</p>
-                  <p>5:12</p>
-                </div>
-                <div class="recipes__video-caption">
-                  <p>The Ultimate French Press Technique</p>
-                  <p>3:33</p>
+                <!-- 6 video-captions -->
+                <div class="recipes__video-caption_wrapper">
+                  <p class="recipes__video-caption">
+                    The Ultimate French Press Technique
+                  </p>
+                  <p class="recipes__video-caption">3:33</p>
                 </div>
               </div>
-              <!-- 6 end -->
             </div>
             <!-- 4 end -->
           </div>
