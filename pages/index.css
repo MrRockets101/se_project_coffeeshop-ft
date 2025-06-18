@@ -106,7 +106,7 @@
   padding: 100px 80px 215px;
 }
 
-.recipes_title {
+.recipes__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -118,7 +118,7 @@
   padding-bottom: 24px;
 }
 
-.recipes__text-rules {
+.recipes__text_rules {
   font-size: 20px;
   line-height: 30px;
   font-style: normal;
@@ -146,13 +146,13 @@
   justify-content: space-between;
 }
 
-.recipes__video-caption_wrapper {
+.recipes__video_caption-wrapper {
   display: flex;
   justify-content: space-between;
   padding-top: 24px;
 }
 
-.recipes__video-caption {
+.recipes__video_caption {
   font-family: "Inter";
   font-weight: 500;
   max-width: 480px;
