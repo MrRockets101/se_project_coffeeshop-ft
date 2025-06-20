@@ -214,3 +214,19 @@
 .footer__copyright {
   margin: 108px 0 0;
 }
+
+.reservation {
+}
+
+.reservation__title {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
