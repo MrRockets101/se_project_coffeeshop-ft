@@ -221,6 +221,8 @@
   font-style: normal;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .reservation__title {
@@ -253,8 +255,9 @@
   margin-top: 8px;
   padding: 15px 20px;
   box-sizing: border-box;
-  border: 1px solid 838383;
+  border: 1px solid #838383;
   width: 100%;
+  border-radius: 4px;
 }
 
 .form__label {
@@ -284,16 +287,18 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  border-radius: 4px;
+  border: none;
 }
 
-::placeholder {
+.form__imput::placeholder {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
 }
 
-.form__checkbox:after {
-  background-color: #1878dc;
+.form__checkbox:checked {
+  background: #1878dc url(../images/check.svg) no-repeat;
   color: #fff;
 }
