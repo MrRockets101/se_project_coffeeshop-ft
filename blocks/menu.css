@@ -1,5 +1,5 @@
 .menu {
-  background-image: url(../images/background_menu.svg);
+  background: url(../images/background_menu.svg) no-repeat center;
   display: flex;
   flex-direction: column;
   align-items: center;
